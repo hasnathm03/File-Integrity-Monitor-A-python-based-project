@@ -1,0 +1,44 @@
+{
+  "scan_time": "2026-05-18T13:34:44.064657",
+  "summary": {
+    "modified": 1,
+    "deleted": 1,
+    "added": 0,
+    "mime_mismatch": 2
+  },
+  "details": {
+    "modified": [
+      {
+        "path": "config.json",
+        "changed": [
+          "sha256",
+          "md5",
+          "size"
+        ],
+        "old_sha256": "62036e46b24a58effddb7aae75f882a7ec0e9ec48fca32387a047f3cd5fc50cf",
+        "new_sha256": "cc43e2aa27bf18fbd668c55740dcab29379cff15ef821ddccb7df991f856bc0c",
+        "old_size": 35,
+        "new_size": 57
+      }
+    ],
+    "deleted": [
+      "script.py"
+    ],
+    "added": [],
+    "mime_mismatch": [
+      {
+        "path": "update.jpg",
+        "extension": ".jpg",
+        "detected_mime": "text/x-shellscript",
+        "reason": "Extension does not match file content"
+      },
+      {
+        "path": "images/logo.png",
+        "extension": ".png",
+        "detected_mime": "text/plain",
+        "reason": "Extension does not match file content"
+      }
+    ],
+    "errors": []
+  }
+}

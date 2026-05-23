@@ -1,0 +1,6 @@
+# Core dependency for deep MIME detection (uses libmagic)
+# Linux / macOS:
+python-magic>=0.4.27
+
+# Windows only (includes bundled libmagic DLL):
+# python-magic-bin>=0.4.14
